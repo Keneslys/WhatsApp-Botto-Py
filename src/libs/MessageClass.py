@@ -1,4 +1,4 @@
-from libs import Void
+from libs import Muzan
 from utils import DynamicConfig
 from neonize.events import MessageEv
 
