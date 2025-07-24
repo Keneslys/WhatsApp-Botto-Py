@@ -1,5 +1,5 @@
 from .BaseCommand import BaseCommand
-from .Void import Void
+from .Muzan import Muzan
 from .MessageClass import MessageClass
 
-__all__ = ["BaseCommand", "Void", "MessageClass"]
+__all__ = ["BaseCommand", "Muzan", "MessageClass"]
