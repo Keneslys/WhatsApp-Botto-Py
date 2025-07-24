@@ -2,7 +2,7 @@ import sys
 import os
 import time
 from config import get_config
-from libs import Void
+from libs import Muzan
 from utils import Log
 
 
