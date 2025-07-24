@@ -12,7 +12,7 @@ class Command(BaseCommand):
             {
                 "command": "info",
                 "category": "core",
-                "aliases": ["about", "botinfo"],
+                "aliases": ["in", "botinfo"],
                 "description": {"content": "Show detailed bot information."},
                 "exp": 1,
             },
@@ -27,9 +27,9 @@ class Command(BaseCommand):
 
     def exec(self, M: MessageClass, _):
         try:
-            bot_name = "Void-Bot"
+            bot_name = "Muzn-Bot"
             version = "1.0.0"
-            developer = "Debanjan Das"
+            developer = "Jflex_OG"
             uptime = self.get_uptime()
             prefix = self.client.config.prefix
             framework = "Neonize + Custom Handler"
