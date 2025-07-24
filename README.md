@@ -1,6 +1,6 @@
-# 🤖 WhatsApp-Botto-Py
+# 🤖 MUZAN-BOT
 
-**WhatsApp-Botto-Py** is a WhatsApp bot created with [neonize](https://github.com/krypton-byte/neonize) and written in Python. This is my first Python open source project. If there are any mistakes, feel free to open an issue.
+**MUZAN-BOT** is a WhatsApp bot created with [neonize](https://github.com/krypton-byte/neonize) and written in Python. This is my first Python open source project. If there are any mistakes, feel free to open an issue.
 
 **⚠️ NOTE:** I can't guarantee that you won’t be blocked for using this code. Although it has worked for me, WhatsApp does not allow bots or unofficial clients on their platform. So, this shouldn't be considered completely safe.
 
@@ -33,14 +33,14 @@ Inside your `.env` or config file:
 ```env
 NAME=Void  # The instance name for your bot
 SESSION=db.sqlite3  # SQLite3 file used to store session info
-NUMBER=27782xxxxxx  # Bot’s phone number (required)
+NUMBER=2556127xxxx  # Bot’s phone number (required)
 
 PREFIX=#  # The prefix for commands
 
 URI=mongodb://127.0.0.1:27017/database
 # MongoDB URI. ⚠️ DO NOT CHANGE THIS IF YOU ARE HOSTING ON TERMUX
 
-MODS=27782xxxxxx,91700xxxxxx,91983xxxxxx
+MODS=255610274920
 # Comma-separated moderator numbers
 ```
 
@@ -159,4 +159,4 @@ Follow these steps to install and run **WhatsApp-Botto-Py** on Termux:
 
 This project is open-sourced under the **GPL-3.0 license**.
 
-> Made with ❤️ by [Debanjan Das](https://github.com/Debanjan-San)
+> Made with ❤️ by [JFLEX OG](https://github.com/jflex019)
